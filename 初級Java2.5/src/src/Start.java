@@ -1,4 +1,4 @@
-import src.MyFrame;
+package src;
 
 public class Start {
 

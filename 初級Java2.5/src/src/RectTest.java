@@ -2,7 +2,7 @@ package src;
 
 public class RectTest extends MyFrame{
 	public void run() {
-		fillRect(0,0,0,0);
+		fillRect(30,50,200,100);
 	}
 		
 	
