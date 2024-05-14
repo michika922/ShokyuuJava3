@@ -1,3 +1,4 @@
+import src.MyFrame;
 
 public class RectFrame extends MyFrame{
 	public void run() {
