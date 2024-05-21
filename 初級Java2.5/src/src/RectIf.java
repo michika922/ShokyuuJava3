@@ -2,22 +2,23 @@ package src;
 
 public class RectIf extends MyFrame {
 	public void run() {
-		int x=30;
-		setColor(0,128,0);
-		int i;
-		for(i=0;i<9;i++) {
-			if(i>=4&&i<=7) {
-				fillRect(x,100,10,100);
-				
-			}else {
-				fillRect(x,80,10,100);
-				
-			}
-			x+=20;
-		
+		int x=-10;
+		int y=-10;
+		int z=10;
+		int i=10;
+		while(x<=170) {
+			System.out.println(x);
+			fillRect(x,y,z,i);
+			x+=z;
+			y+=i;
+			z+=5;
+			i+=5;
 		}
-	 
+		
+		
+		
 	}
+}
 	
 
-}
+
